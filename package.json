@@ -1,0 +1,36 @@
+{
+  "name": "web-docs",
+  "version": "0.9.0",
+  "private": true,
+  "author": "Opstack Kit",
+  "keywords": [
+    "ethereum",
+    "eth",
+    "blockchain",
+    "dapps",
+    "web3",
+    "Optimism",
+    "OP",
+    "Superchain",
+    "tool",
+    "op-stack",
+    "opstack",
+    "opstack-kit",
+    "sdk",
+    "npm",
+    "docs"
+  ],
+  "homepage": "https://opstack-kit.pages.dev",
+  "repository": "opstack-kit/web-docs",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "vitepress": "^1.3.1"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}
