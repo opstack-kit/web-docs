@@ -4,19 +4,25 @@ layout: home
 
 hero:
   name: "Opstack Kit | Docs"
-  text: "Coming soon..."
+  # text: "Coming soon..."
   tagline: npm i opstack-kit | is a toolkit for all upgrades. To easily connect and interact with the OP-Stack (Superchain)
   actions:
     - theme: brand
       text: Get started
-      link: /markdown-examples
+      link: /docs/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Quick start
+      link: /docs/quick-start
+    - theme: alt
+      text: Example
+      link: /docs/example
+  image:
+    src: /ok.png
+    alt: Logo
 
 features:
   - icon: 📝
-    title: Focus on Your Content
+    title: Focus on Your Dapp
     details: Effortlessly create awesome OP-Stack (Superchain) sites with just npm i opstack-kit.
   - icon: 🧑‍💻
     title: Enjoy the "opstack-kit"
@@ -32,10 +38,11 @@ features:
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #FF3366 30%, #FF0000);
 
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #FF0000 50%, #FF0000 50%);
   --vp-home-hero-image-filter: blur(44px);
+  margin-top: 80px;
 }
 
 @media (min-width: 640px) {
