@@ -12,6 +12,10 @@
 </div>
 <p align="center">
   Bridging hooks for OP Stack Chains
+    <br><br>
+  <a href="https://www.npmjs.com/package/opstack-kit">
+    <img src="https://img.shields.io/npm/v/opstack-kit" alt="Stars Badge" />
+  </a>
 </p>
 
 <div align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
@@ -32,7 +36,7 @@
 </div>
 
 ::: warning
-Opstack Kit is currently in alpha. The docs are not complete.
+Opstack Kit is currently in alpha development. The docs are not complete.
 :::
 
 ## Features
@@ -57,7 +61,7 @@ pnpm i opstack-kit
 bun i opstack-kit
 ```
 
-```yarn
+```bash [yarn]
 yarn add opstack-kit
 ```
 

@@ -3,7 +3,7 @@
 Opstack Kit works with OP Stack chains. 
 By adding [opstack-kit-chains](/docs/opstack-kit-chains.html)
 
-(or Viem 2.17.11 you just need to add the relevant chain objects to your Wagmi configuration as usual)
+(or you can use <b>Viem =>2.17.11</b> you just need to add `viem/chains` the relevant chain object to work with `opstack-kit`)
 
 [You can add "opstack-kit-chains" a network at this](https://github.com/opstack-kit/opstack-kit-chains/pulls).
 

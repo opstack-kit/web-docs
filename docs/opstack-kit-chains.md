@@ -1,5 +1,30 @@
 # Opstack Kit Chains
 
+<p align="center">
+  Support your OP-Stack network with "opstack-kit"
+    <br><br>
+  <a href="https://www.npmjs.com/package/opstack-kit-chains">
+    <img src="https://img.shields.io/npm/v/opstack-kit-chains" alt="Npm Badge" />
+  </a>
+</p>
+
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+  <a href="https://github.com/opstack-kit/opstack-kit-chains/stargazers">
+    <img src="https://img.shields.io/github/stars/opstack-kit" alt="Stars Badge" />
+  </a>
+  <a href="https://github.com/opstack-kit/opstack-kit-chains/forks"><img src="https://img.shields.io/github/forks/opstack-kit/opstack-kit-chains" alt="Forks Badge"/>
+  </a>
+  <a href="https://github.com/opstack-kit/opstack-kit-chains/pulls">
+    <img src="https://img.shields.io/github/issues-pr/opstack-kit/opstack-kit-chains" alt="Pull Requests Badge" />
+  </a>
+  <a href="https://github.com/opstack-kit/opstack-kit-chains/issues">
+    <img src="https://img.shields.io/github/issues/opstack-kit/opstack-kit-chains" alt="Issues Badge" />
+  </a>
+  <a href="https://github.com/opstack-kit/opstack-kit-chains/graphs/contributors">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/opstack-kit/opstack-kit-chains?color=2b9348">
+  </a>
+</div>
+
 ## Installation
 
 ::: code-group
@@ -16,7 +41,7 @@ pnpm i opstack-kit-chains
 bun i opstack-kit-chains
 ```
 
-```yarn
+```bash [yarn]
 yarn add opstack-kit-chains
 ```
 
