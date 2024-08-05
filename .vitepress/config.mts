@@ -15,19 +15,19 @@ export default defineConfig({
         text: 'More',
         items: [
           {
-            text: 'Issuessions ',
+            text: 'Issues',
             link: 'https://github.com/opstack-kit/opstack-kit/issues',
           },
           {
-            text: 'Pullssions ',
+            text: 'Pull requests',
             link: 'https://github.com/opstack-kit/opstack-kit/pulls',
           },
           {
-            text: 'Release Notes ',
+            text: 'Release Notes',
             link: 'https://github.com/opstack-kit/opstack-kit/releases',
           },
           {
-            text: 'Contributing ',
+            text: 'Contributing',
             link: 'https://github.com/opstack-kit/opstack-kit',
           },
         ],
