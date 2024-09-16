@@ -44,16 +44,18 @@ const { writeDepositETH } = useWriteDepositETH()
 
 return (
   <button
-    onClick={() => (writeDepositETH({
-      args: {
-        to: '0x215db47f1B2ae03ec45024Cf62ce82879b137469', // your addres
-        amount: 1n, // amount ETH (n = gwei)
-        // Others call args  
-          // gasLimit: 2100n,
-          // data: '0x',
-      },
-      l2ChainId: 11155420, // Your OP Stack chains by main/config.ts with "opstack-kit-chains"
-    }))}
+    onClick={() =>
+      // It should be on the correct L1 network with l2ChainId to start the transaction.
+      writeDepositETH({ 
+        args: {
+          to: '0x215db47f1B2ae03ec45024Cf62ce82879b137469', // your addres
+          amount: 1n, // amount ETH (n = wei)
+          // Others call args (If that doesn't work, you can try adding the required args, e.g. gasLimit: 21000n,)  
+            // gasLimit: 2100n,
+            // data: '0x',
+        },
+        l2ChainId: 11155420, // Your OP Stack chains by main/config.ts with "opstack-kit-chains"
+      })}
   >
     Deposit ETH
   </button>

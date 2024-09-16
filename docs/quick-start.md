@@ -6,7 +6,7 @@ Opstack Kit works with OP Stack chains.
 By adding [opstack-kit-chains](/docs/opstack-kit-chains.html) You can add "opstack-kit-chains" a network at [this](https://github.com/opstack-kit/opstack-kit-chains/pulls).
 
 
-<b>For this example, we use [useWriteDepositETH](/docs/hooks/L1/useWriteDepositETH.html) To quickly deposit ETH to your L2 in just one click.</b>
+<b>For this code example, we use [useWriteDepositETH](/docs/hooks/L1/useWriteDepositETH.html) To quickly deposit ETH to your L2 in just one click.</b>
 
 ::: code-group
 
@@ -22,8 +22,8 @@ return (
       writeDepositETH({ 
         args: {
           to: '0x215db47f1B2ae03ec45024Cf62ce82879b137469', // your addres
-          amount: 1n, // amount ETH (n = gwei)
-          // Others call args  
+          amount: 1n, // amount ETH (n = wei)
+          // Others call args (If that doesn't work, you can try adding the required args, e.g. gasLimit: 21000n,)  
             // gasLimit: 2100n,
             // data: '0x',
         },

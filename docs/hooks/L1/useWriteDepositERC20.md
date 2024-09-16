@@ -88,6 +88,8 @@ The mutation function you can call with variables to trigger the deposit.
     - This function will fire when the mutation is either successfully fetched or encounters an error and be passed either the data or error
     - If you make multiple requests, onSuccess will fire only after the latest call you've made.
 
+##
+
 ### writeDepositERC20Async
 
 `(variables: WriteDepositERC20Parameters, { onSuccess, onSettled, onError }) => Promise<WriteContractReturnType>`
