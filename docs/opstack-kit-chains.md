@@ -106,3 +106,24 @@ return (
 :::
 
 Check out the [Support your OP-Stack network with "opstack-kit"](https://github.com/opstack-kit/opstack-kit-chains) for more.
+
+## Support networks
+**L1**
+<!-- #### L1 - Testnet -->
+| L1 - Testnet |
+|-----------|
+| sepolia |
+<!-- #### L1 - Mainnet -->
+| L1 - Mainnet |
+|-----------|
+| mainnet |
+
+**L2**
+<!-- #### L2 - Testnet -->
+| L2 - Testnet          |
+|------------------|
+| [optimismSepolia](/docs/networks/l2/testnet/optimismSepolia), [baseSepolia](/docs/networks/l2/testnet/baseSepolia), [zoraSepolia](/docs/networks/l2/testnet/zoraSepolia), [fraxtalTestnet](/docs/networks/l2/testnet/fraxtalTestnet), [modeTestnet](/docs/networks/l2/testnet/modeTestnet) |
+<!-- #### L2 - Mainnet -->
+| L2 - Mainnet   |
+|-----------|
+| [optimism](/docs/networks/l2/mainnet/optimism), [base](/docs/networks/l2/mainnet/base), [zora](/docs/networks/l2/mainnet/zora), [fraxtal](/docs/networks/l2/mainnet/fraxtal), [mode](/docs/networks/l2/mainnet/mode), [redstone](/docs/networks/l2/mainnet/redstone) |
