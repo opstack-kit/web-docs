@@ -15,11 +15,11 @@ export default defineConfig({
         text: 'More',
         items: [
           {
-            text: 'Issues',
+            text: 'Issuessions',
             link: 'https://github.com/opstack-kit/opstack-kit/issues',
           },
           {
-            text: 'Pull requests',
+            text: 'Pullssions',
             link: 'https://github.com/opstack-kit/opstack-kit/pulls',
           },
           {
@@ -88,6 +88,10 @@ export default defineConfig({
                 text: 'modeTestnet',
                 link: '/docs/networks/l2/testnet/modeTestnet',
               },
+              {
+                text: 'soneiumMinato',
+                link: '/docs/networks/l2/testnet/soneiumMinato',
+              },
               { text: 'L2 - Mainnet' },
               {
                 text: 'optimism',
@@ -112,6 +116,14 @@ export default defineConfig({
               {
                 text: 'redstone',
                 link: '/docs/networks/l2/mainnet/redstone',
+              },
+
+
+
+              // +
+              {
+                text: '> Custom Network Chains',
+                link: '/docs/configuration.html#custom-network-chains',
               },
             ],
           },

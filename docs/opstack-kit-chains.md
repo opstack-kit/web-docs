@@ -127,7 +127,7 @@ Check out the [Support your OP-Stack network with "opstack-kit"](https://github.
 <!-- #### L2 - Testnet -->
 | L2 - Testnet          |
 |------------------|
-| [optimismSepolia](/docs/networks/l2/testnet/optimismSepolia), [baseSepolia](/docs/networks/l2/testnet/baseSepolia), [zoraSepolia](/docs/networks/l2/testnet/zoraSepolia), [fraxtalTestnet](/docs/networks/l2/testnet/fraxtalTestnet), [modeTestnet](/docs/networks/l2/testnet/modeTestnet) |
+| [optimismSepolia](/docs/networks/l2/testnet/optimismSepolia), [baseSepolia](/docs/networks/l2/testnet/baseSepolia), [zoraSepolia](/docs/networks/l2/testnet/zoraSepolia), [fraxtalTestnet](/docs/networks/l2/testnet/fraxtalTestnet), [modeTestnet](/docs/networks/l2/testnet/modeTestnet), [soneiumMinato](/docs/networks/l2/testnet/soneiumMinato) |
 <!-- #### L2 - Mainnet -->
 | L2 - Mainnet   |
 |-----------|
