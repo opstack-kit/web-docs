@@ -1,18 +1,45 @@
 import { defineConfig } from 'vitepress'
 
+// 
+async function getPackageVersion() {
+  const response = await fetch('https://registry.npmjs.org/opstack-kit'); //
+  const data = await response.json();
+  return data['dist-tags'].latest;
+}
+const pkgVersion = await getPackageVersion();
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Opstack Kit | Docs",
   description: "npm i opstack-kit | is a toolkit for all upgrades. To easily connect and interact with the OP-Stack (Superchain)",
+  
+  lastUpdated: true,
+  
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    editLink: {
+      pattern: 'https://github.com/opstack-kit/web-docs/edit/main/:path',
+      text: 'Suggest changes to this page',
+    },
+    footer: {
+      message:
+        'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present Opstack Kit, Nidz',
+    },
+    logo: {
+      light: '/ok.png',
+      dark: '/ok.png',
+      alt: 'OK = Opstack Kit',
+    },
+
     nav: [
       { text: 'Get started', link: '/docs/getting-started' },
       { text: 'Quick start', link: '/docs/quick-start' },
       { text: 'Example', link: '/docs/example' },
 
       {
-        text: 'More',
+        text: pkgVersion,
         items: [
           {
             text: 'Issuessions',
@@ -49,12 +76,9 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Additional libraries',
+        text: 'Types',
         items: [
-          { text: 'opstack-kit-chains', link: '/docs/opstack-kit-chains' },
-
-          {
-            text: 'support networks',
+          { text: '/chains', link: '/docs/types/chains', 
             collapsed: true,
             items: [
               { text: 'L1 - Testnet' },
@@ -125,7 +149,7 @@ export default defineConfig({
                 text: '> Custom Network Chains',
                 link: '/docs/configuration.html#custom-network-chains',
               },
-            ],
+            ], 
           },
 
         ],
@@ -200,5 +224,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/opstack-kit' },
       { icon: 'twitter', link: 'https://x.com/opstackkit' }
     ]
-  }
+  },
+
+  
 })

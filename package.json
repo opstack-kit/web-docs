@@ -1,8 +1,13 @@
 {
   "name": "web-docs",
   "version": "0.9.0",
-  "private": true,
   "author": "Opstack Kit",
+  "repository": "opstack-kit/web-docs",
+  "main": "index.js",
+  "devDependencies": {
+    "vitepress": "^1.3.1"
+  },
+  "homepage": "https://opstack-kit.pages.dev",
   "keywords": [
     "ethereum",
     "eth",
@@ -20,14 +25,8 @@
     "npm",
     "docs"
   ],
-  "homepage": "https://opstack-kit.pages.dev",
-  "repository": "opstack-kit/web-docs",
   "license": "MIT",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "vitepress": "^1.3.1"
-  },
+  "private": true,
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",

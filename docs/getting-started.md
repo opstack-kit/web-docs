@@ -44,8 +44,6 @@ Opstack Kit is currently in alpha development. The docs are not complete.
 - Simplifies cross L1 & L2 interactions
 
 ## Installation
-- #### Additional libraries
-  - ##### [opstack-kit-chains](/docs/opstack-kit-chains.md)
 
 ::: code-group
 
@@ -67,12 +65,12 @@ yarn add opstack-kit
 
 :::
 
-
+- #### Types
+  - ##### opstack-kit[/chains](/docs/types/chains)
 
 ## Example
 
-After [configuring](/docs/configuration.md
-) the network in your app, use ['opstack-kit-chains'](/docs/opstack-kit-chains.md) just import the "opstack-kit" hooks to start interacting with OP Stack chains.
+After use `opstack-kit/chains` for [configuring](/docs/configuration.md) the network in your app,  just import the `opstack-kit` hooks to start interacting with OP Stack chains.
 
 ```tsx
 import { useWriteDepositETH } from 'opstack-kit'

@@ -1,72 +1,36 @@
-# Configuration
+# /chains
 
-Opstack Kit works with OP Stack chains. 
-Type [/chains](/docs/types/chains) adding `opstack-kit/chains`
+Support your networks with "opstack-kit" 
 
-(or you can use <b>Viem =>2.17.11</b> you just need to add `viem/chains` the relevant chain object to work with `opstack-kit`)
+**install**: `npm i opstack-kit` <br>
+**type**: `/chains` <br>
+**import**: `opstack-kit/chains`
 
-
-
-::: code-group
-
-```ts [main/config.ts]
-// main.ts
+```ts[] 
 import { sepolia, optimismSepolia } from 'opstack-kit/chains'
-
-...
-...
-...
-const config = getDefaultConfig({
-  appName: 'My RainbowKit App',
-  projectId: import.meta.env.VITE_SOME_KEY,
-  chains: [sepolia, optimismSepolia],
-  ssr: true,
-});
-
----------------------------------------------------------
-// config.ts
-import { createConfig, http } from 'wagmi'
-import { sepolia, optimismSepolia } from 'opstack-kit/chains'
-
-export const config = createConfig({
-  chains: [sepolia, optimismSepolia],
-  transports: {
-    [sepolia.id]: http(),
-    [optimismSepolia.id]: http(),
-  },
-})
 ```
 
-```tsx [app.tsx]
-import { useWriteDepositETH } from 'opstack-kit'
+## Support networks
 
-const { writeDepositETH } = useWriteDepositETH()
+**L1**
+<!-- #### L1 - Testnet -->
+| L1 - Testnet |
+|-----------|
+| sepolia |
+<!-- #### L1 - Mainnet -->
+| L1 - Mainnet |
+|-----------|
+| mainnet |
 
-return (
-  <button
-    onClick={() =>
-      // It should be on the correct L1 network with l2ChainId to start the transaction.
-      writeDepositETH({ 
-        args: {
-          to: '0x215db47f1B2ae03ec45024Cf62ce82879b137469', // your addres
-          amount: 1n, // amount ETH (n = wei)
-          // Others call args (If that doesn't work, you can try adding the required args, e.g. gasLimit: 21000n,)  
-            // gasLimit: 21000n,
-            // data: '0x',
-        },
-        l2ChainId: 11155420, // Your OP Stack chains by main/config.ts with "opstack-kit/chains"
-      })}
-  >
-    Deposit ETH
-  </button>
-)
-```
-
-:::
-
-Check out the [Support your OP-Stack network with "opstack-kit"](/docs/types/chains) for more.
-
-#
+**L2**
+<!-- #### L2 - Testnet -->
+| L2 - Testnet          |
+|------------------|
+| [optimismSepolia](/docs/networks/l2/testnet/optimismSepolia), [baseSepolia](/docs/networks/l2/testnet/baseSepolia), [zoraSepolia](/docs/networks/l2/testnet/zoraSepolia), [fraxtalTestnet](/docs/networks/l2/testnet/fraxtalTestnet), [modeTestnet](/docs/networks/l2/testnet/modeTestnet), [soneiumMinato](/docs/networks/l2/testnet/soneiumMinato) |
+<!-- #### L2 - Mainnet -->
+| L2 - Mainnet   |
+|-----------|
+| [optimism](/docs/networks/l2/mainnet/optimism), [base](/docs/networks/l2/mainnet/base), [zora](/docs/networks/l2/mainnet/zora), [fraxtal](/docs/networks/l2/mainnet/fraxtal), [mode](/docs/networks/l2/mainnet/mode), [redstone](/docs/networks/l2/mainnet/redstone) |
 
 ## Custom Network Chains
 
@@ -170,3 +134,4 @@ export const config = createConfig({
 :::
 
 Template starter: [react+rainbowkit](https://github.com/nidz-the-fact/React-with-Vitejs-for-Rainbowkit-to-Starter-Web3)
+
