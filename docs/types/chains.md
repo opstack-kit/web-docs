@@ -16,7 +16,7 @@ import { sepolia, optimismSepolia } from 'opstack-kit/chains'
 <!-- #### L1 - Testnet -->
 | L1 - Testnet |
 |-----------|
-| sepolia |
+| sepolia, holesky |
 <!-- #### L1 - Mainnet -->
 | L1 - Mainnet |
 |-----------|
@@ -26,11 +26,13 @@ import { sepolia, optimismSepolia } from 'opstack-kit/chains'
 <!-- #### L2 - Testnet -->
 | L2 - Testnet          |
 |------------------|
-| [optimismSepolia](/docs/networks/l2/testnet/optimismSepolia), [baseSepolia](/docs/networks/l2/testnet/baseSepolia), [zoraSepolia](/docs/networks/l2/testnet/zoraSepolia), [fraxtalTestnet](/docs/networks/l2/testnet/fraxtalTestnet), [modeTestnet](/docs/networks/l2/testnet/modeTestnet), [soneiumMinato](/docs/networks/l2/testnet/soneiumMinato) |
+| [optimismSepolia](/docs/networks/l2/testnet/optimismSepolia), [baseSepolia](/docs/networks/l2/testnet/baseSepolia), [zoraSepolia](/docs/networks/l2/testnet/zoraSepolia), [fraxtalHolesky](/docs/networks/l2/testnet/fraxtalHolesky), [modeTestnet](/docs/networks/l2/testnet/modeTestnet), [soneiumMinato](/docs/networks/l2/testnet/soneiumMinato), [garnetHolesky](/docs/networks/l2/testnet/garnetHolesky) |
 <!-- #### L2 - Mainnet -->
 | L2 - Mainnet   |
 |-----------|
 | [optimism](/docs/networks/l2/mainnet/optimism), [base](/docs/networks/l2/mainnet/base), [zora](/docs/networks/l2/mainnet/zora), [fraxtal](/docs/networks/l2/mainnet/fraxtal), [mode](/docs/networks/l2/mainnet/mode), [redstone](/docs/networks/l2/mainnet/redstone) |
+
+Check out the [github](https://github.com/opstack-kit/opstack-kit/tree/main/src/chains) for more.
 
 ## Custom Network Chains
 

@@ -9,9 +9,9 @@ function App() {
   const result = useSimulateFinalizeWithdrawalTransaction({
     args: {
       withdrawalTxHash:
-        '0x18e70002441d72a82eebcf02786da417074c18cf54ca0eba49886773448151e8',
+        '0x2effa77eda4fe8375ac01ad2961b4029435a085b2801dcf188ad788b840e7406',
     },
-    l2ChainId: 8453,
+    l2ChainId: 11155420,
   })
 }
 ```

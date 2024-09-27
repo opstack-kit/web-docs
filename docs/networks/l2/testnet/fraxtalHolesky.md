@@ -1,4 +1,4 @@
-# fraxtalTestnet
+# fraxtalHolesky (Fraxtal Testnet)
 | Name | SmartContract |
 |---------|---------|
 | L2OutputOracle | ```0x715EA64DA13F4d0831ece4Ad3E8c1aa013167F32``` |

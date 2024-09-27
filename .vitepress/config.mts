@@ -86,11 +86,18 @@ export default defineConfig({
                 text: 'sepolia', 
                 link: '/docs/networks/l1/testnet/sepolia',
               },
+              {
+                text: 'holesky', 
+                link: '/docs/networks/l1/testnet/holesky',
+              },
+
               { text: 'L1 - Mainnet' },
               {
                 text: 'mainnet',
                 link: '/docs/networks/l1/mainnet/mainnet',
               },
+
+
               { text: 'L2 - Testnet' },
               {
                 text: 'optimismSepolia',
@@ -105,8 +112,8 @@ export default defineConfig({
                 link: '/docs/networks/l2/testnet/zoraSepolia',
               },
               {
-                text: 'fraxtalTestnet',
-                link: '/docs/networks/l2/testnet/fraxtalTestnet',
+                text: 'fraxtalHolesky',
+                link: '/docs/networks/l2/testnet/fraxtalHolesky',
               },
               {
                 text: 'modeTestnet',
@@ -116,6 +123,11 @@ export default defineConfig({
                 text: 'soneiumMinato',
                 link: '/docs/networks/l2/testnet/soneiumMinato',
               },
+              {
+                text: 'garnetHolesky',
+                link: '/docs/networks/l2/testnet/garnetHolesky',
+              },
+
               { text: 'L2 - Mainnet' },
               {
                 text: 'optimism',
@@ -141,7 +153,6 @@ export default defineConfig({
                 text: 'redstone',
                 link: '/docs/networks/l2/mainnet/redstone',
               },
-
 
 
               // +
