@@ -21,7 +21,7 @@ return (
       writeDepositETH({ 
         args: {
           to: '0x215db47f1B2ae03ec45024Cf62ce82879b137469', // your addres
-          amount: 1n, // amount ETH (n = wei)
+          amount: 10000000000000000n, // amount ETH (n = wei)
           // Others call args (If that doesn't work, you can try adding the required args, e.g. gasLimit: 21000n,)  
             // gasLimit: 21000n,
             // data: '0x',
