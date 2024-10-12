@@ -127,6 +127,10 @@ export default defineConfig({
                 text: 'garnetHolesky',
                 link: '/docs/networks/l2/testnet/garnetHolesky',
               },
+              {
+                text: 'unichainSepolia',
+                link: '/docs/networks/l2/testnet/unichainSepolia',
+              },
 
               { text: 'L2 - Mainnet' },
               {

@@ -26,7 +26,7 @@ import { sepolia, optimismSepolia } from 'opstack-kit/chains'
 <!-- #### L2 - Testnet -->
 | L2 - Testnet          |
 |------------------|
-| [optimismSepolia](/docs/networks/l2/testnet/optimismSepolia), [baseSepolia](/docs/networks/l2/testnet/baseSepolia), [zoraSepolia](/docs/networks/l2/testnet/zoraSepolia), [fraxtalHolesky](/docs/networks/l2/testnet/fraxtalHolesky), [modeTestnet](/docs/networks/l2/testnet/modeTestnet), [soneiumMinato](/docs/networks/l2/testnet/soneiumMinato), [garnetHolesky](/docs/networks/l2/testnet/garnetHolesky) |
+| [optimismSepolia](/docs/networks/l2/testnet/optimismSepolia), [baseSepolia](/docs/networks/l2/testnet/baseSepolia), [zoraSepolia](/docs/networks/l2/testnet/zoraSepolia), [fraxtalHolesky](/docs/networks/l2/testnet/fraxtalHolesky), [modeTestnet](/docs/networks/l2/testnet/modeTestnet), [soneiumMinato](/docs/networks/l2/testnet/soneiumMinato), [garnetHolesky](/docs/networks/l2/testnet/garnetHolesky), [unichainSepolia](/docs/networks/l2/testnet/unichainSepolia) |
 <!-- #### L2 - Mainnet -->
 | L2 - Mainnet   |
 |-----------|
