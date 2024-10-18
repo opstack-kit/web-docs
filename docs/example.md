@@ -32,3 +32,30 @@ Check out the [Stackblitz](https://stackblitz.com/edit/vitejs-vite-2fvxcp?embed=
 
 
 
+## useWriteProveWithdrawalTransaction
+
+advice: This test is on Network `L1: Sepolia` <-> `L2: Optimism Sepolia`. (You should be on the correct L1 network.)
+1. Click on `Preview` or `Both`
+2. You should wait 1-5 minutes to load.
+<br>
+After that connect your wallet and `Enter withdrawalTxL2` your tx.
+3. Click on `Prove Withdrawal` to test.
+
+<iframe className="mt-6" width="100%" height="600px" frameBorder="0" src="https://stackblitz.com/edit/vitejs-vite-fvwtw4?embed=1&file=src%2FApp.tsx"></iframe>
+
+Check out the [Stackblitz](https://stackblitz.com/edit/vitejs-vite-fvwtw4?embed=1&file=src%2FApp.tsx) for more.
+
+
+
+## useWriteFinalizeWithdrawalTransaction
+
+advice: This test is on Network `L1: Sepolia` <-> `L2: Optimism Sepolia`. (You should be on the correct L1 network.)
+1. Click on `Preview` or `Both`
+2. You should wait 1-5 minutes to load.
+<br>
+After that connect your wallet and `Enter withdrawalTxL2` your tx.
+3. Click on `Finalize Withdrawal` to test.
+
+<iframe className="mt-6" width="100%" height="600px" frameBorder="0" src="https://stackblitz.com/edit/vitejs-vite-vemkbw?embed=1&file=src%2FApp.tsx"></iframe>
+
+Check out the [Stackblitz](https://stackblitz.com/edit/vitejs-vite-vemkbw?embed=1&file=src%2FApp.tsx) for more.
