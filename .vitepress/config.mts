@@ -14,6 +14,7 @@ export default defineConfig({
   description: "npm i opstack-kit | is a toolkit for all upgrades. To easily connect and interact with the OP-Stack (Superchain)",
   
   lastUpdated: true,
+  ignoreDeadLinks: true,
   
 
   themeConfig: {
@@ -192,6 +193,10 @@ export default defineConfig({
                 link: '/docs/hooks/L1/useWriteDepositERC20',
               },
               {
+                text: 'useWriteDepositCustomGasToken',
+                link: '/docs/hooks/L1/useWriteDepositCustomGasToken',
+              },
+              {
                 text: 'useSimulateProveWithdrawalTransaction',
                 link: '/docs/hooks/L1/useSimulateProveWithdrawalTransaction',
               },
@@ -227,6 +232,10 @@ export default defineConfig({
               {
                 text: 'useWriteWithdrawERC20',
                 link: '/docs/hooks/L2/useWriteWithdrawERC20',
+              },
+              {
+                text: 'useWriteInitiateWithdrawalETH',
+                link: '/docs/hooks/L2/useWriteInitiateWithdrawalETH',
               },
             ],
           },

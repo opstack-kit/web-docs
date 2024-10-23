@@ -35,13 +35,12 @@
   </a>
 </div>
 
-::: warning
-Opstack Kit is currently in alpha development. The docs are not complete.
-:::
+
 
 ## Features
 
 - Simplifies cross L1 & L2 interactions
+- Supports Custom Gas Token deposit & withdrawal functions
 
 ## Installation
 
