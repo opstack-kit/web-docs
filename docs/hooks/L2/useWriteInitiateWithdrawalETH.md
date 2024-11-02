@@ -2,7 +2,7 @@
 
 Action for initiating a withdrawal of ETH Native for CustomGasToken to L1.
 
-::: warning
+::: tip
 Use this withdrawal function Only for [CustomGasToken](/docs/hooks/L1/useWriteDepositCustomGasToken) to L1.
 :::
 

@@ -2,7 +2,7 @@
 
 Action for executing a depositERC20Transaction of an CustomGasToken to L2.
 
-::: warning
+::: tip
 The token must be approved to portalAddress Before using the function useWriteDepositCustomGasToken. (and withdrawal should be used [InitiateWithdrawal](/docs/hooks/L2/useWriteInitiateWithdrawalETH))
 :::
 

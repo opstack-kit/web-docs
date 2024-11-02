@@ -2,6 +2,10 @@
 
 Action for proving a withdrawal transaction.
 
+::: info
+Multi support for fault-proofs New OP-Stack contracts v3.x.x. using: `"opstack-kit": "^1.6.0"`
+:::
+
 ```tsx [example.tsx]
 import { useWriteProveWithdrawalTransaction } from 'opstack-kit'
 

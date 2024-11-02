@@ -41,25 +41,30 @@
 
 - Simplifies cross L1 & L2 interactions
 - Supports Custom Gas Token deposit & withdrawal functions
+- Supports for multi & New: Fault proofs
 
 ## Installation
+
+::: info
+Recommend add `-g` is a **global** package installation. ([guide](https://docs.npmjs.com/cli/v9/commands/npm-install#global-installation))
+:::
 
 ::: code-group
 
 ```bash [npm]
-npm i opstack-kit
+npm i -g opstack-kit
 ```
 
 ```bash [pnpm]
-pnpm i opstack-kit
+pnpm i -g opstack-kit
 ```
 
 ```bash [bun]
-bun i opstack-kit
+bun i -g opstack-kit
 ```
 
 ```bash [yarn]
-yarn add opstack-kit
+yarn add -g opstack-kit
 ```
 
 :::
