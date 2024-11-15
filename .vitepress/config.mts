@@ -38,7 +38,6 @@ export default defineConfig({
       { text: 'Get started', link: '/docs/getting-started' },
       { text: 'Quick start', link: '/docs/quick-start' },
       { text: 'Example', link: '/docs/example' },
-
       {
         text: pkgVersion,
         items: [
@@ -74,6 +73,7 @@ export default defineConfig({
           { text: 'Quick start', link: '/docs/quick-start' },
           { text: 'Example', link: '/docs/example' },
           { text: 'Configuration', link: '/docs/configuration' },
+          { text: 'CLI command', link: '/docs/cli' },
         ],
       },
       {

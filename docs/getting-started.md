@@ -40,13 +40,14 @@
 ## Features
 
 - Simplifies cross L1 & L2 interactions
-- Supports Custom Gas Token deposit & withdrawal functions
-- Supports for multi & New: Fault proofs
+- Supports "CustomGasToken" deposit & withdrawal functions
+- Supports multi-functionality & new fault-proof feature
+- CLI command development tools
 
 ## Installation
 
 ::: info
-Recommend add `-g` is a **global** package installation. ([guide](https://docs.npmjs.com/cli/v9/commands/npm-install#global-installation))
+Recommend: use [Nodejs v20+](https://nodejs.org/en/download/prebuilt-installer/current) and add `-g` is a **global** package installation. ([guide](https://docs.npmjs.com/cli/v9/commands/npm-install#global-installation))
 :::
 
 ::: code-group
