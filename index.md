@@ -17,7 +17,7 @@ hero:
       text: Example
       link: /docs/example
   image:
-    src: /ok.png
+    src: /docs/assets/ok.png
     alt: Logo
 
 features:

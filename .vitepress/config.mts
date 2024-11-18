@@ -132,6 +132,10 @@ export default defineConfig({
                 text: 'unichainSepolia',
                 link: '/docs/networks/l2/testnet/unichainSepolia',
               },
+              {
+                text: 'inkSepolia',
+                link: '/docs/networks/l2/testnet/inkSepolia',
+              },
 
               { text: 'L2 - Mainnet' },
               {
