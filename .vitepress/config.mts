@@ -24,9 +24,7 @@ export default defineConfig({
       text: 'Suggest changes to this page',
     },
     footer: {
-      message:
-        'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Opstack Kit, Nidz',
+      copyright: 'Copyright © 2024-present Opstack Kit',
     },
     logo: {
       light: '/ok.png',
